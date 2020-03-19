@@ -1,4 +1,4 @@
-const { sayHello } = require('./two');
+import { sayHello } from './two';
 
 function init() {
   sayHello();
