@@ -1,1 +1,7 @@
-console.log('hello');
+const { sayHello } = require('./two');
+
+function init() {
+  sayHello();
+}
+
+init();
